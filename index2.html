@@ -1,8 +1,7 @@
 <!doctype html>
-
 <html lang="en">
-
   <head>
+
     <style>
         #sidebar {
             height: 90%;
@@ -38,8 +37,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            
-                    }
+          }
         a{
             text-decoration: none;
             
@@ -53,16 +51,15 @@
             cursor: pointer;
             background-color: gray;
         }
+        body{
+            font-family: rosarvio;
+          }
     </style>
 
     <meta charset="utf-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Bootstrap demo</title>
-    
+    <title>Order Now</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
   </head>
@@ -70,52 +67,37 @@
   <body>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-
-
     <div>
-    
         <div style="padding-top: 20px;"><a href="#" style=" margin-top: 15px; text-decoration: none; color: black; font-size: 20px; font-weight: 400;line-height: 28.06px; font-family: Rosarvio;">
             <img src="left arrow.jpg" alt="" style="width: 53px; height: 33px;"><span style="margin-left: 10px;">BACK TO MENU</span></a>
             <form class="form-inline" style="margin-right: 70px;float: right;">
                 <div class="input-group">
                     <div class="input-group-prepend" style="font-family: rosarvio;">
                         <span> <img src="order-1.png" alt="Search Icon" style="height: 20px; width: 20px;"> &nbsp;
-                        
                           <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="font-family: rosarvio; font-size: 20px; font-weight: 400; line-height: 28px;">Order Status  </button>
-                          
                           <button type="button" class="btn btn-danger" style="border-radius: 30px; margin-left: 30px;">2</button>
-                          
-                          <!-- <div class="round-circle" style="border-radius: 50px; width: 30px; height: 30px;float: inline-end; margin-left: 30px;">2</div>  -->
                           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                             <div class="offcanvas-header">
                               <p class="offcanvas-title" id="offcanvasRightLabel" style="font-family: rosarvio; font-size: 20px; font-weight: 400; line-height: 28px;">Order Status</p>
-                              
                               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
-                              
                             <div>
-                              
                               <span style="float: inline-start;margin-left: 23px;">Ordered</span>
                               <span style="float: inline-end;">Just Now</span>
                             </div>
-                           
                             <div class="d-flex" style="margin-top: 50px;">
-                              
-                              <div class="p-6"><img src="Cinnamon and Coca.png" alt="" style="height: 20px; width: 20px; float: inline-start; border-radius: 10px; margin-left: 20px;">&nbsp;Cinnamon & Cocoa <span style="justify-content: space-between; margin-left: 130px;color: brown;">2 </span> </div>
-                              
+                              <div class="p-6"><img src="Cinnamon and Coca.png" alt="" style="height: 20px; width: 20px; float: inline-start; border-radius: 10px; margin-left: 20px;">&nbsp;Cinnamon & Cocoa <span style="justify-content: space-between; margin-left: 130px;">2 </span> </div>
                             </div>
-
                             <div>
                               <br>
                               <span style="float: inline-start;margin-left: 23px;">Preparing</span>
                               <span style="float: inline-end; font-size: 12px;">12 MINS AGO</span>
                             </div>
-                        
                             <div class="d-flex" style="margin-top: 50px;">
-                              <div class="p-6"><img src="Drizzled with Caramel.png" alt="" style="height: 20px; width: 20px; float: inline-start; border-radius: 10px; margin-left: 20px;">&nbsp;Drizzled with Caramel<span style="justify-content: space-between; margin-left: 120px; color: brown;">2 </span> </div>
+                              <div class="p-6"><img src="Drizzled with Caramel.png" alt="" style="height: 20px; width: 20px; float: inline-start; border-radius: 10px; margin-left: 20px;">&nbsp;Drizzled with Caramel<span style="justify-content: space-between; margin-left: 120px;">2 </span> </div>
                               </div>
-                              <div class="p-6"><img src="Dalgona Matcha.png" alt="" style="height: 20px; width: 20px; float: inline-start; border-radius: 10px; margin-left: 20px;">&nbsp;Dalgona Matcha <span style="justify-content: space-between; margin-left: 155px; color: brown;">2 </span></div>
+                              <div class="p-6"><img src="Dalgona Matcha.png" alt="" style="height: 20px; width: 20px; float: inline-start; border-radius: 10px; margin-left: 20px;">&nbsp;Dalgona Matcha <span style="justify-content: space-between; margin-left: 155px;">2 </span></div>
                         
                               <div><br>
                                 <span style="float: inline-start;margin-left: 23px;">Finishing</span>
@@ -138,62 +120,44 @@
                                 <span style="float: inline-start;margin-left: 23px;">Total<span style="margin-left: 230px;">₹411.21</span></span>
                               </div>
                             </div>
-                            
                           </div>
-                          
                             </div>
                           </div>
                         </span>
                       </div>
-
                 </div>
-                
-                </form>
+              </form>
         </div>    
         <div style="float: left;">
           <img src="full img capp.png" alt="" style="width: 100%;height: 982px;"></div>
-                        <div>
-                          <span style="font-family: Rosarivo; font-size:34px;font-weight: 400; line-height: 101.5px;">Cinnamon and Cocoa</span>
-    </div>
+          <div><span style="font-family: Rosarivo; font-size:34px;font-weight: 400; line-height: 101.5px;">Cinnamon and Cocoa</span></div>
 <span style="font-family: Rosarvio;font-size: 20px;">A single espresso shot poured into hot foamy milk, with the surface topped with mildly sweetened cocoa powder and drizzled with scrumptious caramel syrup.</span>
-<div>
-    <span style="font-size: 14px; font-family: rosarvio; font-weight: 400;line-height: 20px; color: rgb(95, 89, 89); margin-top: 500px;">SIZE</span>
+<div><span style="font-size: 14px; font-family: rosarvio; font-weight: 400;line-height: 20px; color: rgb(95, 89, 89); margin-top: 500px;">SIZE</span></div>
 </div>
-</div>
-
 <div class="row">
-   
 <div class="card mt-3 me-3  text-center mb-3" style="width:113px;height: 113px;">
-
     <a href="" style="text-decoration: none; color: black;"> <img src="smallcup.png" alt="Search Icon" style="height: 41px; width: 37px; margin-top: 12px;"></span>
     <div class="card-body">
       <p style="font-family: Rosarivo; font-size:15px;font-weight: 400; line-height: 21.75px;">SHORT<p></a>
     </div>
-  
   </div>
   <div class="card mt-3 me-3  text-center mb-3" style="width:113px;height: 113px;">
-
     <a href="" style="text-decoration: none; color: black;"> <img src="tallcup.png" alt="Search Icon" style="height: 49px; width: 44px; margin-top: 12px;"></span>
     <div class="card-body">
       <p style="font-family: Rosarivo; font-size:15px;font-weight: 400; line-height: 21.75px;">TALL<p></a>
     </div>
-  
   </div>
   <div class="card mt-3 me-3  text-center mb-3" style="width:113px;height: 113px;">
-
     <a href="" style="text-decoration: none; color: black;"> <img src="grandecup.png" alt="Search Icon" style="height: 57px; width: 51px; margin-top: 12px;"></span>
     <div class="card-body">
       <p style="font-family: Rosarivo; font-size:13px;font-weight: 400; line-height: 21.75px;">GRANDE<p></a>
     </div>
-  
   </div>
   <div class="card mt-3 me-3  text-center mb-3" style="width:113px;height: 113px;">
-
     <a href="" style="text-decoration: none; color: black;"> <img src="venticup.png" alt="Search Icon" style="height: 65px; width: 58px; margin-top: 12px;"></span>
     <div class="card-body">
       <p style="font-family: Rosarivo; font-size:13px;font-weight: 400; line-height: 21.75px;">VENTI<p></a>
     </div>
-  
   </div>
 </div>
 <div>
@@ -228,7 +192,7 @@
 <div>
 <div class="row" style="float: left;">
     <span style="text-decoration: none; color: black; font-size: 60px;font-weight: 600;line-height: 69px;font-family: rosarvio;width: 113px; height: 58px;"> ₹99  </span>
-      
+ 
 </div>
 <div style="float: inline-end; margin-right:450px; margin-top: 15px;"><button type="button" onclick="changeValue('+')">+</button>
     <span id="value">0</span>
@@ -237,6 +201,7 @@
 <button type="button" class="btn btn-danger" style=" float: inline-start;margin-right: 300px; font-size: 20px; width: 272px;height: 77px;font-weight: 400;margin-top: 10px;">PLACE ORDER</button> 
 
 </body>
+
 <script>
     function changeValue(operation) {
         var valueElement = document.getElementById('value');
